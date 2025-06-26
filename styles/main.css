@@ -674,3 +674,26 @@ ul {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contact-google-map-container {
+    flex: 1.2; /* Slightly larger than the form side */
+    max-width: 100%;
+  }
+
+  .contact-form-container {
+    flex: 1;
+  }
+
+  .contact-main-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .contact-google-map {
+    width: 100% !important;
+    height: 500px;
+  }
+}
